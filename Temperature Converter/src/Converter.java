@@ -74,6 +74,7 @@ public class Converter extends JFrame {
                 String text = celsToFahr.getText();
                 if (text.isEmpty()) {
                     fahrToCels.setText("");
+                    error.setVisible(false);
                     return;
                 }
                 try {
@@ -104,6 +105,7 @@ public class Converter extends JFrame {
                 String text = fahrToCels.getText();
                 if (text.isEmpty()) {
                     celsToFahr.setText("");
+                    error.setVisible(false);
                     return;
                 }
                 try {
@@ -134,6 +136,7 @@ public class Converter extends JFrame {
                 String text = celsToKel.getText();
                 if (text.isEmpty()) {
                     kelToCels.setText("");
+                    error.setVisible(false);
                     return;
                 }
                 try {
@@ -164,6 +167,7 @@ public class Converter extends JFrame {
                 String text = kelToCels.getText();
                 if (text.isEmpty()) {
                     celsToKel.setText("");
+                    error.setVisible(false);
                     return;
                 }
                 try {
@@ -194,6 +198,7 @@ public class Converter extends JFrame {
                 String text = fahrToKel.getText();
                 if (text.isEmpty()) {
                     kelToFahr.setText("");
+                    error.setVisible(false);
                     return;
                 }
                 try {
@@ -224,6 +229,7 @@ public class Converter extends JFrame {
                 String text = kelToFahr.getText();
                 if (text.isEmpty()) {
                     fahrToKel.setText("");
+                    error.setVisible(false);
                     return;
                 }
                 try {
